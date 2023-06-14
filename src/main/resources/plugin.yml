@@ -1,0 +1,17 @@
+name: VillagerMenu
+author: QG (the great master of Mostekarl)
+version: 1.0
+main: fr.qg.villagermenu.VillagerMenuPlugin
+api-version: 1.19
+commands:
+  openTrade:
+    description: Open the villager menu
+    usage: /openTrade <player> <menu>
+    aliases: [vm]
+    permission: villagermenu.open
+    permission-message: You don't have the permission to open the villager menu
+  serialize:
+    description: Serialize an item
+    usage: /serialize
+    permission: villagermenu.serialize
+    permission-message: You don't have the permission to serialize.

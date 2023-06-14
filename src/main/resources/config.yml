@@ -1,0 +1,12 @@
+merchants:
+  test:
+    title: "&6&lTest Merchant"
+    trades:
+      1:
+        result:
+          material: "GOLD_INGOT"
+        ingredients:
+          1:
+            material: "EMERALD"
+          2:
+            material: "DIAMOND"
